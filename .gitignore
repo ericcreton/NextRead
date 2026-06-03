@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+frontend/dist/
+data/*
+!data/.gitkeep
+.pytest_cache/
+
+*.egg-info/
+
+.DS_Store
+
+# Generated datasets, databases, trained arrays and local credentials
+*.npz
+*.npy
+*.db
+*.sqlite*
+.env.*
+!.env.example
